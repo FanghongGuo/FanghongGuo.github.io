@@ -37,7 +37,7 @@ window.PUBLICATIONS = [
   year={2025},
   publisher={IEEE}
 }`,
-    heroImage: 'assets/images/papers/SDFPCP/framework.png',
+    heroImage: 'assets/images/papers/SDFPCP/SDFPCP.png',
     heroCaption: 'Overall framework of the proposed sequential decentralized federated progressive channel pruning strategy.',
     gallery: [
       {
