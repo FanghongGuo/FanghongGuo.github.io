@@ -3,7 +3,7 @@ window.PUBLICATIONS = [
   id: 'SDFPCP',
   year: 2025,
   title: 'An Efficient Sequential Decentralized Federated Progressive Channel Pruning Strategy for Smart Grid Electricity Theft Detection',
-  authors: 'Fanghong Guo, Shengwei Li, Hao Yang, Chen Dong,  Yifang Chen, and Guoqi Li
+  authors: 'Fanghong Guo, Shengwei Li, Hao Yang, Chen Dong,  Yifang Chen, and Guoqi Li',
   venue: 'Accepted',
   area: 'Federated Learning',
   tags: [
