@@ -32,8 +32,7 @@ window.PUBLICATIONS = [
     doi: '',
 
     codeAvailable: true,
-    codePath: 'code/fed-mcrw/',
-    codeRepo: 'https://github.com/FanghongGuo/Fed-MCRW',
+    codeUrl: "https://github.com/FanghongGuo/Fed-MCRW"
 
     bibtex: `@article{FedMCRW2026,
   title   = {Federated Markov Chain Random Walk (Fed-MCRW)},
