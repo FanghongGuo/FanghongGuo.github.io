@@ -41,7 +41,7 @@ window.PUBLICATIONS = [
     heroCaption: 'Overall framework of the proposed sequential decentralized federated progressive channel pruning strategy.',
     gallery: [
       {
-        src: 'assets/images/papers/SDFPCP/SDFPCP.png',
+        src: 'assets/images/papers/SDFPCP/',
         caption: 'Representative results and analysis for the proposed SDFPCP strategy.'
       }
     ]
