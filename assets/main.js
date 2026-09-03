@@ -42,7 +42,7 @@ if (peopleGrid) {
 /* Homepage publications are rendered from the same data source as publications.html. */
 const homePublications = document.getElementById('homePublications');
 if (homePublications) {
-  const papers = [...(window.PUBLICATIONS || [])].sort((a, b) => b.year - a.year);
+  const papers = [...(window.PUBLICATIONS || [])].filter(p => p.featured).sort((a, b) => b.year - a.year);
 
   homePublications.innerHTML = papers.map(p => `
     <article class="pub-item reveal visible">
