@@ -47,27 +47,27 @@ window.PUBLICATIONS = [
   gallery: [
     {
       src:
-        'assets/images/papers/seq-dfl-pruning-theft/results-accuracy.png',
+        'assets/images/papers/SDFPCP/SDFPCP.png',
   
       caption:
         'Comparison of electricity theft detection performance.'
     },
   
-    {
-      src:
-        'assets/images/papers/seq-dfl-pruning-theft/results-efficiency.png',
+    // {
+    //   src:
+    //     'assets/images/papers/seq-dfl-pruning-theft/results-efficiency.png',
   
-      caption:
-        'Comparison of model efficiency and computational cost.'
-    },
+    //   caption:
+    //     'Comparison of model efficiency and computational cost.'
+    // },
   
-    {
-      src:
-        'assets/images/papers/seq-dfl-pruning-theft/pruning-process.png',
+    // {
+    //   src:
+    //     'assets/images/papers/seq-dfl-pruning-theft/pruning-process.png',
   
-      caption:
-        'Progressive channel pruning process during federated training.'
-    }
+    //   caption:
+    //     'Progressive channel pruning process during federated training.'
+    // }
   ],
 }
 ];
