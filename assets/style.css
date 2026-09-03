@@ -36,4 +36,101 @@
 .group-photo-caption {
   font-size: 0.95rem;
   opacity: 0.85;
+
+/* ==============================
+   Paper Figures
+============================== */
+
+.paper-hero-figure {
+  margin: 28px 0 34px;
+}
+
+.paper-hero-figure img {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.paper-hero-figure figcaption {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+
+.paper-gallery {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(280px, 1fr)
+    );
+
+  gap: 24px;
+
+  margin-top: 28px;
+}
+
+
+.paper-gallery-item {
+  margin: 0;
+
+  padding: 14px;
+
+  border-radius: 14px;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.08);
+
+  background:
+    rgba(255,255,255,0.025);
+}
+
+
+.paper-gallery-item img {
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  border-radius: 9px;
+
+  transition:
+    transform 0.25s ease;
+}
+
+
+.paper-gallery-item:hover img {
+  transform: scale(1.02);
+}
+
+
+.paper-gallery-item figcaption {
+  padding: 12px 4px 2px;
+
+  font-size: 0.88rem;
+
+  line-height: 1.55;
+
+  opacity: 0.78;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .paper-gallery {
+    grid-template-columns: 1fr;
+  }
+
+}  
 }
