@@ -1,43 +1,50 @@
 window.PUBLICATIONS = [
-  {
-    id: 'fed-mcrw',
-    year: 2026,
-    title: 'Federated Markov Chain Random Walk (Fed-MCRW)',
-    authors: 'Authors to be updated',
-    venue: 'Under Review',
-    area: 'Federated Learning',
-    tags: [
-      'Sequential Federated Learning',
-      'Markov Chain',
-      'Topology Adaptation',
-      'Decentralized Learning'
-    ],
+{
+  id: 'SDFPCP',
+  year: 2025,
+  title: 'An Efficient Sequential Decentralized Federated Progressive Channel Pruning Strategy for Smart Grid Electricity Theft Detection',
+  authors: 'Fanghong Guo, Shengwei Li, Hao Yang, Chen Dong,  Yifang Chen, and Guoqi Li
+  venue: 'Accepted',
+  area: 'Federated Learning',
+  tags: [
+    'Electricity Theft Detection',
+    'Sequential Federated Learning',
+    'Model Pruning',
+    'Smart Grid'
+  ],
+  // summary: '面向智能电网窃电检测任务，提出一种高效的顺序去中心化联邦渐进通道剪枝策略，在兼顾检测性能的同时降低通信与计算开销。',
+  // motivation: '智能电网窃电检测通常面临数据隐私约束、边缘设备资源受限以及客户端数据异质性等问题。传统集中式方法难以满足隐私保护要求，而标准联邦学习又可能带来较高的通信和模型开销，因此有必要探索面向边缘场景的轻量化顺序去中心化联邦学习方案。',
+  // method: [
+  //   '构建顺序去中心化联邦学习框架，使模型在客户端之间串行传播与协同更新。',
+  //   '将渐进式通道剪枝嵌入联邦训练过程，在保持关键特征表达能力的同时逐步降低模型复杂度。',
+  //   '通过轻量化模型设计减少边缘侧训练和通信负担，从而提升资源受限场景下的部署可行性。',
+  //   '面向智能电网窃电检测任务验证方法在检测性能与效率之间的平衡能力。'
+  // ],
+  // results: '该方法旨在在窃电检测精度基本可接受的前提下，进一步降低模型计算量与通信成本，并提升去中心化边缘协同场景下的部署效率。具体实验数值可在论文正式定稿后补充。',
+  // sourceNote: '本页内容依据论文题目与当前研究方向整理。作者信息、期刊信息、最终实验图表与 BibTeX 可在论文正式发表后进一步完善。',
+  paperUrl: '',
+  doi: '',
+  codeAvailable: true,
+  codePath: 'code/seq-dfl-pruning-theft/',
+  codeRepo: 'https://github.com/FanghongGuo/SDFPCP',
+  bibtex: `@article{guo2024efficient,
+  title={An efficient sequential decentralized federated progressive channel pruning strategy for smart grid electricity theft detection},
+  author={Guo, Fanghong and Li, Shengwei and Yang, Hao and Dong, Chen and Chen, Yifang and Li, Guoqi},
+  journal={IEEE Transactions on Industrial Informatics},
+  volume={21},
+  number={3},
+  pages={2393--2402},
+  year={2025},
+  publisher={IEEE}
+}`,
 
-    summary: '提出一种面向动态边缘网络的去中心化拓扑自适应顺序联邦学习方法，通过 Markov 链随机游走实现客户端的分布式激活与模型串行传播。',
+  heroImage: 'assets/images/papers/SDFPCP/SDFPCP.png',
 
-    motivation: '现有顺序联邦学习方法通常依赖理想化的客户端调度或网络拓扑假设。在动态边缘网络中，实际通信拓扑可能与预设调度策略不匹配，从而导致模型传播受阻以及优化过程不稳定。',
-
-    method: [
-      '利用仅依赖局部邻居拓扑信息的 Metropolis-Hastings 转移机制构建客户端随机游走过程。',
-      '通过 Markov 链实现去中心化、拓扑自适应的客户端激活，无需服务器进行全局调度。',
-      '建立拓扑感知的理论分析框架，并利用 Markov 链返回时间的二阶矩刻画网络拓扑与优化收敛性能之间的关系。',
-      '在动态拓扑及恶意链路干扰场景下评估算法的拓扑适应能力和鲁棒性。'
-    ],
-
-    results: '在 CIFAR-10 数据集和 VGG-9 模型上的实验用于验证 Fed-MCRW 的收敛性能、拓扑适应能力以及面对恶意链路干扰时的鲁棒性。具体数值结果可在论文正式发表后进一步补充。',
-
-    sourceNote: '本页内容依据 Fed-MCRW 当前论文摘要与研究方案整理。论文尚未正式发表，因此作者、期刊信息、DOI 和最终 BibTeX 可在录用后更新。',
-
-    paperUrl: '',
-    doi: '',
-
-    codeAvailable: true,
-    codeUrl: "https://github.com/FanghongGuo/Fed-MCRW"
-
-    bibtex: `@article{FedMCRW2026,
-  title   = {Federated Markov Chain Random Walk (Fed-MCRW)},
-  year    = {2026},
-  note    = {Under Review}
-}`
-  }
+  gallery: [
+    {
+      src: 'assets/images/papers/SDFPCP/SDFPCP.png',
+      caption: 'Overview of the smart-grid electricity theft detection task.'
+    }
+  ]
+}
 ];
