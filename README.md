@@ -150,12 +150,4 @@ README 建议至少写清楚：
 
 编辑 `assets/main.js` 中的 `people` 数组即可新增成员。
 
-## 内容依据
-
-网站初始内容来自：
-
-- 浙江工业大学教师个人主页：`https://homepage.zjut.edu.cn/fhguo/`
-- Google Scholar：`https://scholar.google.com/citations?user=M-dHZGIAAAAJ&hl=zh-CN`
-- 用户提供的《郭方洪基金答辩.pptx》
-
 建议论文 DOI、卷期页码、PDF 与代码链接在正式上线前逐篇核对。
