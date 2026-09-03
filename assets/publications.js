@@ -38,13 +38,36 @@ window.PUBLICATIONS = [
   publisher={IEEE}
 }`,
 
-  heroImage: 'assets/images/papers/SDFPCP/SDFPCP.png',
+  heroImage:
+  'assets/images/papers/seq-dfl-pruning-theft/framework.png',
 
+  heroCaption:
+    'Overall framework of the proposed sequential decentralized federated progressive channel pruning strategy.',
+  
   gallery: [
     {
-      src: 'assets/images/papers/SDFPCP/SDFPCP.png',
-      caption: 'Overview of the smart-grid electricity theft detection task.'
+      src:
+        'assets/images/papers/seq-dfl-pruning-theft/results-accuracy.png',
+  
+      caption:
+        'Comparison of electricity theft detection performance.'
+    },
+  
+    {
+      src:
+        'assets/images/papers/seq-dfl-pruning-theft/results-efficiency.png',
+  
+      caption:
+        'Comparison of model efficiency and computational cost.'
+    },
+  
+    {
+      src:
+        'assets/images/papers/seq-dfl-pruning-theft/pruning-process.png',
+  
+      caption:
+        'Progressive channel pruning process during federated training.'
     }
-  ]
+  ],
 }
 ];
