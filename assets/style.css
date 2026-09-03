@@ -390,7 +390,7 @@ code{
 .portrait-frame{
   border-radius:18px;
   overflow:hidden;
-  aspect-ratio:6 / 6;
+  aspect-ratio:7 / 8;
   background:#0b2035;
 }
 
